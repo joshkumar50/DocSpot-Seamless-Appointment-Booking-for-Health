@@ -1,0 +1,61 @@
+.doctor-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: 320px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.card-body p {
+    margin: 0 0 10px 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.card-body b {
+    color: #333;
+    min-width: 110px;
+    display: inline-block;
+}
+
+.card-footer {
+    margin-top: auto; /* Pushes the button to the bottom */
+    padding-top: 15px;
+}
+
+.book-now-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.book-now-btn:hover {
+    background-color: #0056b3;
+}

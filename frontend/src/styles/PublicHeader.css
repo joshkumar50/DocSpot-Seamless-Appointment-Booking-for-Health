@@ -1,0 +1,23 @@
+.public-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: transparent; /* It will sit on top of the page background */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.public-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f9c400; /* Yellow from your design */
+}
+
+.public-nav a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
